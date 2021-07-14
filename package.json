@@ -1,0 +1,24 @@
+{
+  "name": "tensorflow-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack serve --host 0.0.0.0 --port 5050"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.7.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.7.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "html-webpack-plugin": "^5.3.2",
+    "typescript": "^4.3.4",
+    "webpack": "^5.40.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.3",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
