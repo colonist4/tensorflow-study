@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const folders = ['boston', 'mnist']
+const folders = ['mnist', 'mnist_yolo']
 
 module.exports = {
     entry: folders.reduce((obj, f) => ({
